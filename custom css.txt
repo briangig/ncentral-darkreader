@@ -99,3 +99,6 @@ CSS
 .dgrid-link-cell > a {
     font-weight: bold;
 }
+.taskExecutionTool .taskExecutionManagementGrid .taskOutputTask {
+    background-color: #363636;
+}
