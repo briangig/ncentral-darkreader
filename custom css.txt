@@ -1,0 +1,96 @@
+CSS
+.ncentral .dijitTabContainerTop-dijitContentPane,
+.ncentral .dijitTabContainerLeft-dijitContentPane,
+.ncentral .dijitTabContainerBottom-dijitContentPane,
+.ncentral .dijitTabContainerRight-dijitContentPane,
+.ncentral .dijitAccordionContainer-dijitContentPane {
+    background-color: #181a1b;
+}
+.ncentral .dijitTabContainerTop-tabs {
+    background-color: #181a1b;
+}
+.ncentral .dijitTabContainerTop-tabs .dijitTabChecked {
+    background-color: #2D5C77 !important;
+}
+.ncentral .dijitTabContainerTop-tabs .dijitTab {
+    #color: #8d8e8f;
+    background-color: transparent;
+}
+.ncentral .dijitButtonDisabled .dijitButtonNode,
+.ncentral .dijitDropDownButtonDisabled .dijitButtonNode,
+.ncentral .dijitComboButtonDisabled .dijitButtonNode,
+.ncentral .dijitToggleButtonDisabled .dijitButtonNode,
+.ncentral .xtndDetailedHeader .dijitDropDownButton .dijitButtonNode,
+.ncentral .dijitReset dijitInline dijitButtonNode,
+.ncentral .xtndDetailedHeader .dijitButton .dijitButtonNode {
+    #color: #0e0f0f;
+    background-color: #5d5e5f;
+    color: #81c0d5;
+}
+.ncentral .dijitSelect,
+.ncentral .dijitTextBox {
+    background-color: #6d6e6f;
+}
+.ncentral .filterDropDownDialog .dijitMultiSelectBox {
+    background-color: #111;
+}
+.ncentral .dijitTextBox,
+.ncentral .dijitInputInner {
+    color: #242424;
+}
+.ncentral .dijitTooltipDialogPopup,
+.ncentral .dijitPopup,
+.ncentral .dijitTooltipDialog .dijitTooltipContainer,
+.ncentral .filterDropDownDialog .dijitInline {
+    background-color: #aeaeaf;
+}
+.ncentral .filterDropDownDialog .dijitMultiSelectBox {
+    color: #8d8e8f;
+}
+.ncentral .xtndUsageGraphGraphArea,
+.ncentral .xtndUsageGraphInfoArea,
+.ncentral .xtndDetailedHeaderDetailedContent .detailedContentData,
+.ncentral .xtndUsageGraph {
+    background-color: #7b7b7b;
+}
+.ncentral .fullWidthPane.xtndOverviewTitlePane,
+.ncentral .xtndOverviewTitlePaneContentOuter,
+.ncentral .xtndOverviewTitlePaneTitle {
+    background-color: #838485;
+}
+.ncentral .xtndAssetInfoPaneContentOuter {
+    background: transparent;
+}
+.ncentral .xtndDetailedHeader .dijitComboButton .dijitButtonNode {
+    background-color: #5d5e5f;
+}
+.RemoteControlDisconnectedButton.dijitComboButton .dijitStretch {
+    background-color: #57AE00 !important;
+}
+.ncentral .xtndDetailedHeaderDetailedContent .detailedContentData {
+    color: #e8e8e8;
+}
+.ncentral .xtndDetailedHeader .xtndDetailedHeaderTitle,
+.ncentral .xtndDetailedHeader .xtndArrowNode {
+    color: #e8e8e8;
+}
+.ncentral .dijitMenu {
+    background-color: #e8e8e8;
+}
+.ncentral .dijitSelect,
+.ncentral .dijitTextBox {
+    background-color: #9a9a9a;
+}
+.dgrid-row-odd {
+    background-color: #696969;
+}
+.dgrid-row-even {
+    background-color: #555555;
+}
+.dgrid-header-scroll,
+.dgrid-scroller {
+    background-color: #4c4c4c;
+}
+.dgrid-header-row {
+    background-color: #111;
+}
