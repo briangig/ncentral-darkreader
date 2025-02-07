@@ -55,7 +55,7 @@ CSS
 }
 .ncentral .fullWidthPane.xtndOverviewTitlePane,
 .ncentral .xtndOverviewTitlePaneContentOuter {
-    background-color: #838485;
+    background-color: #696969;
 }
 .ncentral .xtndAssetInfoPaneContentOuter {
     background: transparent;
