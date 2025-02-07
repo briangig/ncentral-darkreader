@@ -54,8 +54,7 @@ CSS
     background-color: #7b7b7b;
 }
 .ncentral .fullWidthPane.xtndOverviewTitlePane,
-.ncentral .xtndOverviewTitlePaneContentOuter,
-.ncentral .xtndOverviewTitlePaneTitle {
+.ncentral .xtndOverviewTitlePaneContentOuter {
     background-color: #838485;
 }
 .ncentral .xtndAssetInfoPaneContentOuter {
@@ -82,15 +81,18 @@ CSS
     background-color: #9a9a9a;
 }
 .dgrid-row-odd {
-    background-color: #696969;
+    background-color: #696969 !important;
 }
 .dgrid-row-even {
-    background-color: #555555;
+    background-color: #555555 !important;
 }
 .dgrid-header-scroll,
 .dgrid-scroller {
-    background-color: #4c4c4c;
+    background-color: #4c4c4c !important;
 }
 .dgrid-header-row {
-    background-color: #111;
+    background-color: #111 !important;
+}
+.ncentral .xtndOverviewTitlePaneTitle {
+    background-color: #696969 !important;
 }
