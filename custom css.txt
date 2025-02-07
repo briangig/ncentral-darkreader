@@ -96,3 +96,6 @@ CSS
 .ncentral .xtndOverviewTitlePaneTitle {
     background-color: #696969 !important;
 }
+.dgrid-link-cell > a {
+    font-weight: bold;
+}
