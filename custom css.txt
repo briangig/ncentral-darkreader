@@ -17,12 +17,13 @@ CSS
     background-color: transparent;
 }
 .ncentral .dijitButtonDisabled .dijitButtonNode,
-.ncentral .dijitDropDownButtonDisabled .dijitButtonNode,
 .ncentral .dijitComboButtonDisabled .dijitButtonNode,
+.ncentral .dijitDropDownButtonDisabled .dijitButtonNode,
 .ncentral .dijitToggleButtonDisabled .dijitButtonNode,
 .ncentral .xtndDetailedHeader .dijitDropDownButton .dijitButtonNode,
 .ncentral .dijitReset dijitInline dijitButtonNode,
 .ncentral .xtndDetailedHeader .dijitButton .dijitButtonNode {
+    #color: #282828;
     #color: #0e0f0f;
     background-color: #5d5e5f;
     color: #81c0d5;
@@ -35,7 +36,8 @@ CSS
     background-color: #111;
 }
 .ncentral .dijitTextBox,
-.ncentral .dijitInputInner {
+.ncentral .dijitInputInner,
+.ncentral .dijitInputField .dijitPlaceHolder {
     color: #242424;
 }
 .ncentral .dijitTooltipDialogPopup,
@@ -51,11 +53,11 @@ CSS
 .ncentral .xtndUsageGraphInfoArea,
 .ncentral .xtndDetailedHeaderDetailedContent .detailedContentData,
 .ncentral .xtndUsageGraph {
-    background-color: #7b7b7b;
+    background-color: #505050;
 }
 .ncentral .fullWidthPane.xtndOverviewTitlePane,
 .ncentral .xtndOverviewTitlePaneContentOuter {
-    background-color: #696969;
+    background-color: #282828;
 }
 .ncentral .xtndAssetInfoPaneContentOuter {
     background: transparent;
@@ -66,25 +68,18 @@ CSS
 .RemoteControlDisconnectedButton.dijitComboButton .dijitStretch {
     background-color: #57AE00 !important;
 }
-.ncentral .xtndDetailedHeaderDetailedContent .detailedContentData {
-    color: #e8e8e8;
-}
-.ncentral .xtndDetailedHeader .xtndDetailedHeaderTitle,
-.ncentral .xtndDetailedHeader .xtndArrowNode {
-    color: #e8e8e8;
-}
 .ncentral .dijitMenu {
     background-color: #e8e8e8;
 }
 .ncentral .dijitSelect,
 .ncentral .dijitTextBox {
-    background-color: #9a9a9a;
+    background-color: #8d8e8f;
 }
 .dgrid-row-odd {
-    background-color: #696969 !important;
+    background-color: #282828 !important;
 }
 .dgrid-row-even {
-    background-color: #555555 !important;
+    background-color: #3c3c3c !important;
 }
 .dgrid-header-scroll,
 .dgrid-scroller {
@@ -93,12 +88,30 @@ CSS
 .dgrid-header-row {
     background-color: #111 !important;
 }
-.ncentral .xtndOverviewTitlePaneTitle {
-    background-color: #696969 !important;
-}
-.dgrid-link-cell > a {
-    font-weight: bold;
+.ncentral .xtndOverviewTitlePaneTitle,
+.ncentral .dijitDialogSingleChildWidgetNoPadding,
+.ncentral .dijitDialogSingleChildWidgetNoPadding .dijitDialogBorderContainerButtonPane {
+    background-color: #282828 !important;
 }
 .taskExecutionTool .taskExecutionManagementGrid .taskOutputTask {
     background-color: #363636;
+}
+.ncentral .xtndOverviewTitlePaneTextNode {
+    color: #6d6d6d;
+}
+.ncentral .dijitDialogTitleBar {
+    border: 15px solid #282828;
+}
+.ncentral .dijitTextBoxFocused .dijitButtonNode,
+.ncentral .dijitSelectFocused,
+.ncentral .dijitTextBoxFocused,
+.ncentral .dijitTextBoxFocused .dijitInputContainer {
+    background: #9a9a9a !important;
+}
+.ncentral .xtndUsageGraphInfoArea .xtndUsageGraphTitle,
+.ncentral .xtndUsageGraphInfoArea .xtndUsageGraphDetails,
+.ncentral .xtndDetailedHeaderDetailedContent .detailedContentData,
+.ncentral .xtndDetailedHeader .xtndDetailedHeaderTitle,
+.ncentral .xtndDetailedHeader .xtndArrowNode {
+    color: #c2c2c2;
 }
